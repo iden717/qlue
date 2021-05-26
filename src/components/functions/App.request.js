@@ -9,7 +9,7 @@ export default function AppRequest() {
     dispatch({
       type: "IN_LOADING",
     });
-    return API.get(`/people/?page=${num}`)
+    return API.get(`/people/?page=${num ? num : 1}`)
       .then((res) => {
         const getPeoples = JSON.stringify(res?.data);
         localStorage.setItem("people", getPeoples);
