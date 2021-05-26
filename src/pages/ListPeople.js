@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useHistory, useParams } from "react-router";
 import Chart from "../components/Chart";
 import Micro from "../components/functions/App.micro";

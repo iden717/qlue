@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { useQuery } from "react-query";
 import { API } from "../../config/api";
 import { PeopleContext } from "../../context/peopleContext";
 
